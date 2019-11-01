@@ -1,0 +1,7 @@
+sample.id	condition
+s84	control
+s85	control
+s86	control
+s93	treated
+s94	treated
+s95	treated

@@ -1,0 +1,26 @@
+# Recuitment Data Challenge
+
+The Bioinformatics & Biostatistics Group @ The Francis Crick Institute
+
+### Introduction
+
+Here you will find the data from an RNA-Seq and ATAC-Seq experiment. Both experiments have the same design. There is a treatment and control group each containing three replicates making a total of six samples per experiment. The data files are defined as follows (all files are tab delimited text files):
+
+#### RNA-Seq Data
+
+rnaseq_design.txt  Sample ids and corresponding condition labels.
+rnaseq_gene_counts.txt	Raw (not normalised) gene-level read counts for each sample.
+rnaseq_annotation.txt	Gene level annotation.
+
+#### ATAC-Seq Data
+
+atacseq_design.txt	Sample ids and corresponding conditon labels.
+atacseq_peak_counts.txt	Raw (not normalised) ATAC-Seq peak level counts for each sample.
+atacseq_peaks.bed	A bed file defining the peak loci
+
+All sequence data was aligned to the human genome reference hg38.
+
+### The Challenge
+
+The treatment here is thought to activate a transcriptional program via remodelling of the chromatin arcitecture. The aim here is to identify genes that may be regulated in this fashion. Identify the possible transcription programs involved and present candidate transcription factors that may be responsible for the underlying regulation.
+

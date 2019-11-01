@@ -1,0 +1,7 @@
+sample.id	condition
+s69	control
+s70	control
+s71	control
+s75	treated
+s76	treated
+s77	treated
